@@ -64,11 +64,17 @@
     <Compile Include="Emilio\Procesos\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Jose\Mantenimientos\Form1.cs">
+    <Compile Include="Jose\Mantenimientos\frmContratos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Jose\Mantenimientos\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Jose\Mantenimientos\frmContratos.Designer.cs">
+      <DependentUpon>frmContratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmPercepcionesFiscales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmPercepcionesFiscales.Designer.cs">
+      <DependentUpon>frmPercepcionesFiscales.cs</DependentUpon>
     </Compile>
     <Compile Include="Jose\Procesos\Form1.cs">
       <SubType>Form</SubType>
@@ -109,6 +115,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Jose\Mantenimientos\frmContratos.resx">
+      <DependentUpon>frmContratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jose\Mantenimientos\frmPercepcionesFiscales.resx">
+      <DependentUpon>frmPercepcionesFiscales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDI\frmMDI.resx">
       <DependentUpon>frmMDI.cs</DependentUpon>
     </EmbeddedResource>

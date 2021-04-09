@@ -10,3 +10,9 @@ D:\Documentos\GitHub\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\obj\Debug
 D:\Documentos\GitHub\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\obj\Debug\CapaModeloHRM.csproj.CoreCompileInputs.cache
 D:\Documentos\GitHub\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\obj\Debug\CapaModeloHRM.dll
 D:\Documentos\GitHub\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\obj\Debug\CapaModeloHRM.pdb
+D:\Escritorio\ForkHRM\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\bin\Debug\CapaModeloHRM.dll
+D:\Escritorio\ForkHRM\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\bin\Debug\CapaModeloHRM.pdb
+D:\Escritorio\ForkHRM\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\obj\Debug\CapaModeloHRM.csprojAssemblyReference.cache
+D:\Escritorio\ForkHRM\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\obj\Debug\CapaModeloHRM.csproj.CoreCompileInputs.cache
+D:\Escritorio\ForkHRM\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\obj\Debug\CapaModeloHRM.dll
+D:\Escritorio\ForkHRM\ProyectoUMGISRUP2k21\MODULO_HRM\HRM\CapaModeloHRM\obj\Debug\CapaModeloHRM.pdb
