@@ -18,7 +18,7 @@ namespace EJECUTABLE_HRM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPercepcionesFiscales());
+            Application.Run(new frmFormacionAcademica());
         }
     }
 }

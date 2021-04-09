@@ -88,8 +88,8 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             navegador1.DatosActualizar = dgvDatos;
             navegador1.procActualizarData();
             navegador1.procCargar();
-            navegador1.ayudaRuta = "";
-            navegador1.ruta = "";
+            navegador1.ayudaRuta = "AyudaJose/AyudaMantenimientosJose.chm";
+            navegador1.ruta = "Ayuda-Formulario-Percepcion-Fiscal.html";
         }
 
         private void rdValor_CheckedChanged(object sender, EventArgs e)

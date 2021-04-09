@@ -70,11 +70,35 @@
     <Compile Include="Jose\Mantenimientos\frmContratos.Designer.cs">
       <DependentUpon>frmContratos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Jose\Mantenimientos\frmDificultad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmDificultad.Designer.cs">
+      <DependentUpon>frmDificultad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmFormacionAcademica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmFormacionAcademica.Designer.cs">
+      <DependentUpon>frmFormacionAcademica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Jose\Mantenimientos\frmPercepcionesFiscales.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Jose\Mantenimientos\frmPercepcionesFiscales.Designer.cs">
       <DependentUpon>frmPercepcionesFiscales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmTipoEntrevista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmTipoEntrevista.Designer.cs">
+      <DependentUpon>frmTipoEntrevista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmTipoMoneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmTipoMoneda.Designer.cs">
+      <DependentUpon>frmTipoMoneda.cs</DependentUpon>
     </Compile>
     <Compile Include="Jose\Procesos\Form1.cs">
       <SubType>Form</SubType>
@@ -118,8 +142,20 @@
     <EmbeddedResource Include="Jose\Mantenimientos\frmContratos.resx">
       <DependentUpon>frmContratos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Jose\Mantenimientos\frmDificultad.resx">
+      <DependentUpon>frmDificultad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jose\Mantenimientos\frmFormacionAcademica.resx">
+      <DependentUpon>frmFormacionAcademica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Jose\Mantenimientos\frmPercepcionesFiscales.resx">
       <DependentUpon>frmPercepcionesFiscales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jose\Mantenimientos\frmTipoEntrevista.resx">
+      <DependentUpon>frmTipoEntrevista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jose\Mantenimientos\frmTipoMoneda.resx">
+      <DependentUpon>frmTipoMoneda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDI\frmMDI.resx">
       <DependentUpon>frmMDI.cs</DependentUpon>
