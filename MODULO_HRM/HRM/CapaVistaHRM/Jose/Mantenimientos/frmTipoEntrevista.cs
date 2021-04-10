@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaControladorHRM.Jose;
 
 namespace CapaVistaHRM.Jose.Mantenimientos
 {
     public partial class frmTipoEntrevista : Form
     {
+        ClsValidaciones validar = new ClsValidaciones();
         string UsuarioAplicacion;
         static Form FormularioPadre;
         public frmTipoEntrevista()
@@ -90,6 +92,17 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             navegador1.procCargar();
             navegador1.ayudaRuta = "AyudaJose/AyudaMantenimientosJose.chm";
             navegador1.ruta = "Ayuda-Formulario-Tipo-De-Entrevista.html";
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.funcSoloLetras(e);
+            validar.ValidadCantidad(e,txtNombre,48);
+        }
+
+        private void txtDescripcion_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.ValidadCantidad(e, txtDescripcion, 248);
         }
     }
 }

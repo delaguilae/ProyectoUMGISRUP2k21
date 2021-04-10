@@ -18,8 +18,16 @@
 			<param name="Local" value="Ayuda-Formulario-Contratos.html">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Horario">
+			<param name="Local" value="AYUDA-FORMULARIO-HORARIO.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Deducciones">
+			<param name="Local" value="AYUDA-FORMULARIO-DEDUCCIONES.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Percepciones">
-			<param name="Local" value="Ayuda-Formulario-Percepcion-Fiscal.html">
+			<param name="Local" value="AYUDA-FORMULARIO-PERCEPCIONES.html">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Dificultad">

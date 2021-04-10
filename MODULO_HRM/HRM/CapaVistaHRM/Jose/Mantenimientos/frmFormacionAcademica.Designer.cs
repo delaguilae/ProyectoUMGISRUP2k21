@@ -36,10 +36,12 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblCodigo = new System.Windows.Forms.Label();
             this.dgvDatos = new System.Windows.Forms.DataGridView();
-            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.navegador1 = new CapaVistaNavegador.Navegador();
+            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.lblDescripcion = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).BeginInit();
             this.SuspendLayout();
@@ -48,7 +50,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             this.groupBox1.Controls.Add(this.rdActivo);
             this.groupBox1.Controls.Add(this.rdInactivo);
-            this.groupBox1.Location = new System.Drawing.Point(130, 230);
+            this.groupBox1.Location = new System.Drawing.Point(682, 300);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(274, 100);
             this.groupBox1.TabIndex = 44;
@@ -84,7 +86,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             this.lblEstado.AutoSize = true;
             this.lblEstado.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(20, 246);
+            this.lblEstado.Location = new System.Drawing.Point(567, 305);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(62, 20);
             this.lblEstado.TabIndex = 43;
@@ -113,34 +115,38 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // dgvDatos
             // 
             this.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDatos.Location = new System.Drawing.Point(582, 149);
+            this.dgvDatos.Location = new System.Drawing.Point(27, 417);
             this.dgvDatos.Name = "dgvDatos";
             this.dgvDatos.ReadOnly = true;
             this.dgvDatos.RowHeadersWidth = 51;
             this.dgvDatos.RowTemplate.Height = 24;
-            this.dgvDatos.Size = new System.Drawing.Size(827, 357);
+            this.dgvDatos.Size = new System.Drawing.Size(1398, 232);
             this.dgvDatos.TabIndex = 40;
             // 
-            // txtEstado
+            // txtDescripcion
             // 
-            this.txtEstado.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEstado.Location = new System.Drawing.Point(410, 234);
-            this.txtEstado.Multiline = true;
-            this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(100, 32);
-            this.txtEstado.TabIndex = 39;
-            this.txtEstado.Tag = "estado";
-            this.txtEstado.Visible = false;
-            this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
+            this.txtDescripcion.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescripcion.Location = new System.Drawing.Point(682, 143);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtDescripcion.Size = new System.Drawing.Size(554, 156);
+            this.txtDescripcion.TabIndex = 39;
+            this.txtDescripcion.Tag = "descripcion";
+            this.txtDescripcion.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
+            this.txtDescripcion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDescripcion_KeyPress);
             // 
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.Location = new System.Drawing.Point(130, 185);
+            this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(380, 27);
+            this.txtNombre.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtNombre.Size = new System.Drawing.Size(380, 215);
             this.txtNombre.TabIndex = 38;
             this.txtNombre.Tag = "nombreFormacionAcademica";
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtCodigo
             // 
@@ -161,17 +167,39 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.navegador1.TabIndex = 36;
             this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
+            // txtEstado
+            // 
+            this.txtEstado.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEstado.Location = new System.Drawing.Point(962, 305);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(100, 27);
+            this.txtEstado.TabIndex = 45;
+            this.txtEstado.Tag = "estado";
+            this.txtEstado.Visible = false;
+            // 
+            // lblDescripcion
+            // 
+            this.lblDescripcion.AutoSize = true;
+            this.lblDescripcion.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescripcion.Location = new System.Drawing.Point(567, 146);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(104, 20);
+            this.lblDescripcion.TabIndex = 46;
+            this.lblDescripcion.Text = "Descripcion";
+            // 
             // frmFormacionAcademica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1429, 519);
+            this.ClientSize = new System.Drawing.Size(1429, 660);
+            this.Controls.Add(this.lblDescripcion);
+            this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblEstado);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.dgvDatos);
-            this.Controls.Add(this.txtEstado);
+            this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.navegador1);
@@ -194,9 +222,11 @@ namespace CapaVistaHRM.Jose.Mantenimientos
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.DataGridView dgvDatos;
-        private System.Windows.Forms.TextBox txtEstado;
+        private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtCodigo;
         private CapaVistaNavegador.Navegador navegador1;
+        private System.Windows.Forms.TextBox txtEstado;
+        private System.Windows.Forms.Label lblDescripcion;
     }
 }

@@ -96,6 +96,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtCantidad.TabIndex = 38;
             this.txtCantidad.Tag = "valor";
             this.txtCantidad.TextChanged += new System.EventHandler(this.txtCantidad_TextChanged);
+            this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
             // lblFormula
             // 
@@ -203,6 +204,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtFormula.TabIndex = 32;
             this.txtFormula.Tag = "formula";
             this.txtFormula.TextChanged += new System.EventHandler(this.txtFormula_TextChanged);
+            this.txtFormula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFormula_KeyPress);
             // 
             // txtDescripcion
             // 
@@ -214,6 +216,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtDescripcion.Size = new System.Drawing.Size(380, 224);
             this.txtDescripcion.TabIndex = 31;
             this.txtDescripcion.Tag = "descripcion";
+            this.txtDescripcion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDescripcion_KeyPress);
             // 
             // txtNombre
             // 
@@ -222,8 +225,9 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(380, 27);
             this.txtNombre.TabIndex = 30;
-            this.txtNombre.Tag = "nombrePercepcion";
+            this.txtNombre.Tag = "tipoPercepcion";
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtCodigo
             // 
@@ -232,7 +236,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(115, 27);
             this.txtCodigo.TabIndex = 29;
-            this.txtCodigo.Tag = "idPercepcion";
+            this.txtCodigo.Tag = "idTipoPercepcion";
             // 
             // rdValor
             // 
@@ -301,7 +305,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.navegador1);
             this.Name = "frmPercepcionesFiscales";
-            this.Text = "Mantenimiento Percepciones Fiscales";
+            this.Text = "Mantenimiento Percepciones";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).EndInit();

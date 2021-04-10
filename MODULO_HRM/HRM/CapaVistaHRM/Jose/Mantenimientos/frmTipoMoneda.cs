@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaControladorHRM.Jose;
 
 namespace CapaVistaHRM.Jose.Mantenimientos
 {
     public partial class frmTipoMoneda : Form
     {
+        ClsValidaciones validar = new ClsValidaciones();
         string UsuarioAplicacion;
         static Form FormularioPadre;
         public frmTipoMoneda()
@@ -90,6 +92,23 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             navegador1.procCargar();
             navegador1.ayudaRuta = "AyudaJose/AyudaMantenimientosJose.chm";
             navegador1.ruta = "Ayuda-Formulario-Tipo-De-Moneda.html";
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.funcSoloLetras(e);
+            validar.ValidadCantidad(e, txtNombre, 48);
+        }
+
+        private void txtDescripcion_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.ValidadCantidad(e,txtDescripcion,248);
+        }
+
+        private void txtValor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.funcSoloNumerosDecimales(e);
+            validar.ValidadCantidad(e, txtValor, 9);
         }
     }
 }

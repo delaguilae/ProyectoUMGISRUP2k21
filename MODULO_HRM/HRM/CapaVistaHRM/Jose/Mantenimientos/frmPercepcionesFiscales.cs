@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaControladorHRM.Jose;
 
 namespace CapaVistaHRM.Jose.Mantenimientos
 {
     public partial class frmPercepcionesFiscales : Form
     {
+        ClsValidaciones validar = new ClsValidaciones();
         string UsuarioAplicacion;
         static Form FormularioPadre;
         public frmPercepcionesFiscales()
@@ -60,7 +62,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             List<string> CamposTabla = new List<string>();
             List<Control> lista = new List<Control>();
             navegador1.aplicacion = 1302;
-            navegador1.tbl = "percepcionfiscal";
+            navegador1.tbl = "tipopercepcion";
             navegador1.campoEstado = "estado";
             //  navegador1.MDIformulario = FormularioPadre;
             foreach (Control C in this.Controls)
@@ -89,7 +91,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             navegador1.procActualizarData();
             navegador1.procCargar();
             navegador1.ayudaRuta = "AyudaJose/AyudaMantenimientosJose.chm";
-            navegador1.ruta = "Ayuda-Formulario-Percepcion-Fiscal.html";
+            navegador1.ruta = "AYUDA-FORMULARIO-PERCEPCIONES.html";
         }
 
         private void rdValor_CheckedChanged(object sender, EventArgs e)
@@ -99,7 +101,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
 
             if (rdValor.Checked == true)
                 {
-                    txtCantidad.Text = "Sin Cantidad Especifiacda.";
+                    txtCantidad.Text = "0.0";
                 }
             
            
@@ -110,7 +112,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
          
             if (rdFormula.Checked == true)
             {
-                txtFormula.Text = "Sin Formula Especifiacda.";
+                txtFormula.Text = "Sin Formula Especificada.";
             }
            
         }
@@ -146,6 +148,29 @@ namespace CapaVistaHRM.Jose.Mantenimientos
         private void txtNombre_TextChanged(object sender, EventArgs e)
         {
           
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.funcSoloLetras(e);
+            validar.ValidadCantidad(e, txtNombre, 48);
+        }
+
+        private void txtDescripcion_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            validar.ValidadCantidad(e, txtDescripcion, 248);
+        }
+
+        private void txtFormula_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.ValidadCantidad(e, txtFormula, 98);
+        }
+
+        private void txtCantidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.funcSoloNumerosDecimales(e);
+            validar.ValidadCantidad(e, txtCantidad, 9);
         }
     }
 }

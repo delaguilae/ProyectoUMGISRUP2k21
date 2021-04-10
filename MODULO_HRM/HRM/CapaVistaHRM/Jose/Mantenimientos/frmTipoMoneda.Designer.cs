@@ -131,6 +131,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtValor.Size = new System.Drawing.Size(380, 27);
             this.txtValor.TabIndex = 27;
             this.txtValor.Tag = "valor";
+            this.txtValor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValor_KeyPress);
             // 
             // txtDescripcion
             // 
@@ -142,6 +143,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtDescripcion.Size = new System.Drawing.Size(380, 224);
             this.txtDescripcion.TabIndex = 26;
             this.txtDescripcion.Tag = "descripcion";
+            this.txtDescripcion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDescripcion_KeyPress);
             // 
             // txtNombre
             // 
@@ -151,6 +153,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtNombre.Size = new System.Drawing.Size(380, 27);
             this.txtNombre.TabIndex = 25;
             this.txtNombre.Tag = "tipoMoneda";
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtCodigo
             // 

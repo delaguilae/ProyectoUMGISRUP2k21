@@ -131,6 +131,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtNombre.Size = new System.Drawing.Size(380, 27);
             this.txtNombre.TabIndex = 25;
             this.txtNombre.Tag = "nombre";
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtCodigo
             // 

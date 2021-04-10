@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaControladorHRM.Jose;
 
 namespace CapaVistaHRM.Jose.Mantenimientos
 {
     public partial class frmFormacionAcademica : Form
     {
+        ClsValidaciones validar = new ClsValidaciones();
         string UsuarioAplicacion;
         static Form FormularioPadre;
         public frmFormacionAcademica()
@@ -28,7 +30,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
 
             if (rdActivo.Checked == true)
             {
-                txtEstado.Text = "1";
+                txtDescripcion.Text = "1";
             }
         }
 
@@ -37,19 +39,19 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             //si se selecciona el radioButon de inactivo, el dato que se reflejara en el campo de texto sera e estado  0
             if (rdInactivo.Checked == true)
             {
-                txtEstado.Text = "0";
+                txtDescripcion.Text = "0";
             }
         }
 
         private void txtEstado_TextChanged(object sender, EventArgs e)
         {
             //si el campo estado esta vacio coloca los 2 radioButons en falso, para que se puedan volver a seleccionar
-            if (txtEstado.Text == "")
+            if (txtDescripcion.Text == "")
             {
                 rdActivo.Checked = false;
                 rdInactivo.Checked = false;
             }
-            if (txtEstado.Text == "1")
+            if (txtDescripcion.Text == "1")
             {
                 rdActivo.Checked = true;
             }
@@ -90,6 +92,17 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             navegador1.procCargar();
             navegador1.ayudaRuta = "AyudaJose/AyudaMantenimientosJose.chm";
             navegador1.ruta = "Ayuda-Formulario-Formacion-Academica_1.html";
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.funcSoloLetras(e);
+            validar.ValidadCantidad(e,txtNombre,48);
+        }
+
+        private void txtDescripcion_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.ValidadCantidad(e, txtDescripcion, 248);
         }
     }
 }

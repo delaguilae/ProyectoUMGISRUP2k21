@@ -70,6 +70,12 @@
     <Compile Include="Jose\Mantenimientos\frmContratos.Designer.cs">
       <DependentUpon>frmContratos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Jose\Mantenimientos\frmDeduccionesFiscales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmDeduccionesFiscales.Designer.cs">
+      <DependentUpon>frmDeduccionesFiscales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Jose\Mantenimientos\frmDificultad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,12 @@
     </Compile>
     <Compile Include="Jose\Mantenimientos\frmTipoEntrevista.Designer.cs">
       <DependentUpon>frmTipoEntrevista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmTipoHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jose\Mantenimientos\frmTipoHorario.Designer.cs">
+      <DependentUpon>frmTipoHorario.cs</DependentUpon>
     </Compile>
     <Compile Include="Jose\Mantenimientos\frmTipoMoneda.cs">
       <SubType>Form</SubType>
@@ -142,6 +154,9 @@
     <EmbeddedResource Include="Jose\Mantenimientos\frmContratos.resx">
       <DependentUpon>frmContratos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Jose\Mantenimientos\frmDeduccionesFiscales.resx">
+      <DependentUpon>frmDeduccionesFiscales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Jose\Mantenimientos\frmDificultad.resx">
       <DependentUpon>frmDificultad.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Jose\Mantenimientos\frmTipoEntrevista.resx">
       <DependentUpon>frmTipoEntrevista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jose\Mantenimientos\frmTipoHorario.resx">
+      <DependentUpon>frmTipoHorario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Jose\Mantenimientos\frmTipoMoneda.resx">
       <DependentUpon>frmTipoMoneda.cs</DependentUpon>

@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaControladorHRM.Jose;
 
 namespace CapaVistaHRM.Jose.Mantenimientos
 {
     public partial class frmDificultad : Form
     {
+        ClsValidaciones validar = new ClsValidaciones();
         string UsuarioAplicacion;
         static Form FormularioPadre;
         public frmDificultad()
@@ -90,6 +92,12 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             navegador1.procCargar();
             navegador1.ayudaRuta = "AyudaJose/AyudaMantenimientosJose.chm";
             navegador1.ruta = "Ayuda-Formulario-Dificultad.html";
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validar.funcSoloLetras(e);
+            validar.ValidadCantidad(e,txtNombre,48);
         }
     }
 }

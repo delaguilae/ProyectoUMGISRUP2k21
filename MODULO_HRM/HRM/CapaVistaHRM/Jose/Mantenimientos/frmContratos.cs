@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaControladorHRM.Jose;
 
 namespace CapaVistaHRM.Jose.Mantenimientos
 {
     public partial class frmContratos : Form
     {
+        ClsValidaciones validacion = new ClsValidaciones();
         string UsuarioAplicacion;
         static Form FormularioPadre;
         public frmContratos()
@@ -60,7 +62,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             List<string> CamposTabla = new List<string>();
             List<Control> lista = new List<Control>();
             navegador1.aplicacion = 1302;
-            navegador1.tbl = "contrato";
+            navegador1.tbl = "tipocontrato";
             navegador1.campoEstado = "estado";
             //  navegador1.MDIformulario = FormularioPadre;
             foreach (Control C in this.Controls)
@@ -90,6 +92,17 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             navegador1.procCargar();
             navegador1.ayudaRuta = "AyudaJose/AyudaMantenimientosJose.chm";
             navegador1.ruta = "Ayuda-Formulario-Contratos.html";
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion.funcSoloLetras(e);
+            validacion.ValidadCantidad(e,txtNombre,48);
+        }
+
+        private void txtDescripcion_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion.ValidadCantidad(e, txtDescripcion, 248);
         }
     }
 }
