@@ -1,0 +1,26 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AyudaMantenimientosJose.chm
+Contents file=AyudaMantenimientosJose.hhc
+Default Window=AyudaMantenimientosJose
+Default topic=Ayuda-Formulario-Contratos.html
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+[WINDOWS]
+AyudaMantenimientosJose="AyudaMantenimientosJose","AyudaMantenimientosJose.hhc",,,,"Ayuda-Formulario-Contratos.html","Contratos","Ayuda-Formulario-Percepcion-Fiscal.html","Percepciones",0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+Ayuda-Formulario-Contratos.html
+Ayuda-Formulario-Dificultad.html
+Ayuda-Formulario-Formacion-Academica_1.html
+Ayuda-Formulario-Percepcion-Fiscal.html
+Ayuda-Formulario-Tipo-De-Entrevista.html
+Ayuda-Formulario-Tipo-De-Moneda.html
+AYUDA-FORMULARIO-DEDUCCIONES.html
+AYUDA-FORMULARIO-HORARIO.html
+AYUDA-FORMULARIO-PERCEPCIONES.html
+
+[INFOTYPES]
+
