@@ -16,12 +16,12 @@ namespace CapaVistaHRM.Jose.Mantenimientos
         ClsValidaciones validar = new ClsValidaciones();
         string UsuarioAplicacion;
         static Form FormularioPadre;
-        public frmDificultad()
+        public frmDificultad(string usuario, Form formularioPadre)
         {
             InitializeComponent();
-            UsuarioAplicacion = "JLOPEZ";
+            UsuarioAplicacion = usuario;
             navegador1.Usuario = UsuarioAplicacion;
-            //FormularioPadre = formularioPadre;
+            FormularioPadre = formularioPadre;
         }
 
         private void rdActivo_CheckedChanged(object sender, EventArgs e)
@@ -61,10 +61,10 @@ namespace CapaVistaHRM.Jose.Mantenimientos
         {
             List<string> CamposTabla = new List<string>();
             List<Control> lista = new List<Control>();
-            navegador1.aplicacion = 1302;
+            navegador1.aplicacion = 313;
             navegador1.tbl = "dificultad";
             navegador1.campoEstado = "estado";
-            //  navegador1.MDIformulario = FormularioPadre;
+            navegador1.MDIformulario = FormularioPadre;
             foreach (Control C in this.Controls)
             {
                 if ((C.Tag != null) && (!C.Tag.ToString().Equals("")))

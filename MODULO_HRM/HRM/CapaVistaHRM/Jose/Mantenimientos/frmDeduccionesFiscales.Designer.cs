@@ -219,13 +219,15 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             // dgvDatos
             // 
+            this.dgvDatos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvDatos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDatos.Location = new System.Drawing.Point(21, 467);
+            this.dgvDatos.Location = new System.Drawing.Point(163, 379);
             this.dgvDatos.Name = "dgvDatos";
             this.dgvDatos.ReadOnly = true;
             this.dgvDatos.RowHeadersWidth = 51;
             this.dgvDatos.RowTemplate.Height = 24;
-            this.dgvDatos.Size = new System.Drawing.Size(1393, 270);
+            this.dgvDatos.Size = new System.Drawing.Size(953, 168);
             this.dgvDatos.TabIndex = 54;
             // 
             // txtFormula
@@ -233,7 +235,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtFormula.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFormula.Location = new System.Drawing.Point(673, 145);
             this.txtFormula.Name = "txtFormula";
-            this.txtFormula.Size = new System.Drawing.Size(587, 27);
+            this.txtFormula.Size = new System.Drawing.Size(544, 27);
             this.txtFormula.TabIndex = 53;
             this.txtFormula.Tag = "formula";
             this.txtFormula.TextChanged += new System.EventHandler(this.txtFormula_TextChanged);
@@ -246,7 +248,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDescripcion.Size = new System.Drawing.Size(380, 224);
+            this.txtDescripcion.Size = new System.Drawing.Size(380, 136);
             this.txtDescripcion.TabIndex = 52;
             this.txtDescripcion.Tag = "descripcion";
             this.txtDescripcion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDescripcion_KeyPress);
@@ -284,7 +286,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1432, 750);
+            this.ClientSize = new System.Drawing.Size(1432, 578);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.txtEstado);
@@ -302,7 +304,9 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.navegador1);
+            this.MaximizeBox = false;
             this.Name = "frmDeduccionesFiscales";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mantenimiento Deducciones";
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();

@@ -50,9 +50,9 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             this.groupBox1.Controls.Add(this.rdActivo);
             this.groupBox1.Controls.Add(this.rdInactivo);
-            this.groupBox1.Location = new System.Drawing.Point(682, 300);
+            this.groupBox1.Location = new System.Drawing.Point(682, 261);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(274, 100);
+            this.groupBox1.Size = new System.Drawing.Size(258, 64);
             this.groupBox1.TabIndex = 44;
             this.groupBox1.TabStop = false;
             // 
@@ -60,7 +60,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             this.rdActivo.AutoSize = true;
             this.rdActivo.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdActivo.Location = new System.Drawing.Point(15, 31);
+            this.rdActivo.Location = new System.Drawing.Point(17, 21);
             this.rdActivo.Name = "rdActivo";
             this.rdActivo.Size = new System.Drawing.Size(80, 24);
             this.rdActivo.TabIndex = 33;
@@ -73,7 +73,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             this.rdInactivo.AutoSize = true;
             this.rdInactivo.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdInactivo.Location = new System.Drawing.Point(160, 31);
+            this.rdInactivo.Location = new System.Drawing.Point(139, 21);
             this.rdInactivo.Name = "rdInactivo";
             this.rdInactivo.Size = new System.Drawing.Size(92, 24);
             this.rdInactivo.TabIndex = 34;
@@ -86,7 +86,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             this.lblEstado.AutoSize = true;
             this.lblEstado.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(567, 305);
+            this.lblEstado.Location = new System.Drawing.Point(567, 273);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(62, 20);
             this.lblEstado.TabIndex = 43;
@@ -114,13 +114,15 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             // dgvDatos
             // 
+            this.dgvDatos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvDatos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDatos.Location = new System.Drawing.Point(27, 417);
+            this.dgvDatos.Location = new System.Drawing.Point(130, 340);
             this.dgvDatos.Name = "dgvDatos";
             this.dgvDatos.ReadOnly = true;
             this.dgvDatos.RowHeadersWidth = 51;
             this.dgvDatos.RowTemplate.Height = 24;
-            this.dgvDatos.Size = new System.Drawing.Size(1398, 232);
+            this.dgvDatos.Size = new System.Drawing.Size(925, 179);
             this.dgvDatos.TabIndex = 40;
             // 
             // txtDescripcion
@@ -130,7 +132,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDescripcion.Size = new System.Drawing.Size(554, 156);
+            this.txtDescripcion.Size = new System.Drawing.Size(554, 98);
             this.txtDescripcion.TabIndex = 39;
             this.txtDescripcion.Tag = "descripcion";
             this.txtDescripcion.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
@@ -143,7 +145,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtNombre.Size = new System.Drawing.Size(380, 215);
+            this.txtNombre.Size = new System.Drawing.Size(380, 140);
             this.txtNombre.TabIndex = 38;
             this.txtNombre.Tag = "nombreFormacionAcademica";
             this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
@@ -170,12 +172,13 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // txtEstado
             // 
             this.txtEstado.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEstado.Location = new System.Drawing.Point(962, 305);
+            this.txtEstado.Location = new System.Drawing.Point(955, 266);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(100, 27);
             this.txtEstado.TabIndex = 45;
             this.txtEstado.Tag = "estado";
             this.txtEstado.Visible = false;
+            this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged_1);
             // 
             // lblDescripcion
             // 
@@ -191,7 +194,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1429, 660);
+            this.ClientSize = new System.Drawing.Size(1429, 541);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.groupBox1);
@@ -203,7 +206,9 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.navegador1);
+            this.MaximizeBox = false;
             this.Name = "frmFormacionAcademica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mantenimiento Formacion Academica";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

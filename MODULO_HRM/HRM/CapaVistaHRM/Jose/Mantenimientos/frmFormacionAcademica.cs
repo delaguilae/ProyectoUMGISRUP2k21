@@ -16,12 +16,12 @@ namespace CapaVistaHRM.Jose.Mantenimientos
         ClsValidaciones validar = new ClsValidaciones();
         string UsuarioAplicacion;
         static Form FormularioPadre;
-        public frmFormacionAcademica()
+        public frmFormacionAcademica(string usuario, Form formularioPadre)
         {
             InitializeComponent();
-            UsuarioAplicacion = "JLOPEZ";
+            UsuarioAplicacion = usuario;
             navegador1.Usuario = UsuarioAplicacion;
-            //FormularioPadre = formularioPadre;
+            FormularioPadre = formularioPadre;
         }
 
         private void rdActivo_CheckedChanged(object sender, EventArgs e)
@@ -30,7 +30,7 @@ namespace CapaVistaHRM.Jose.Mantenimientos
 
             if (rdActivo.Checked == true)
             {
-                txtDescripcion.Text = "1";
+                txtEstado.Text = "1";
             }
         }
 
@@ -39,32 +39,22 @@ namespace CapaVistaHRM.Jose.Mantenimientos
             //si se selecciona el radioButon de inactivo, el dato que se reflejara en el campo de texto sera e estado  0
             if (rdInactivo.Checked == true)
             {
-                txtDescripcion.Text = "0";
+                txtEstado.Text = "0";
             }
         }
 
         private void txtEstado_TextChanged(object sender, EventArgs e)
         {
-            //si el campo estado esta vacio coloca los 2 radioButons en falso, para que se puedan volver a seleccionar
-            if (txtDescripcion.Text == "")
-            {
-                rdActivo.Checked = false;
-                rdInactivo.Checked = false;
-            }
-            if (txtDescripcion.Text == "1")
-            {
-                rdActivo.Checked = true;
-            }
         }
 
         private void navegador1_Load(object sender, EventArgs e)
         {
             List<string> CamposTabla = new List<string>();
             List<Control> lista = new List<Control>();
-            navegador1.aplicacion = 1302;
+            navegador1.aplicacion = 314;
             navegador1.tbl = "formacionacademica";
             navegador1.campoEstado = "estado";
-            //  navegador1.MDIformulario = FormularioPadre;
+            navegador1.MDIformulario = FormularioPadre;
             foreach (Control C in this.Controls)
             {
                 if ((C.Tag != null) && (!C.Tag.ToString().Equals("")))
@@ -103,6 +93,20 @@ namespace CapaVistaHRM.Jose.Mantenimientos
         private void txtDescripcion_KeyPress(object sender, KeyPressEventArgs e)
         {
             validar.ValidadCantidad(e, txtDescripcion, 248);
+        }
+
+        private void txtEstado_TextChanged_1(object sender, EventArgs e)
+        {
+            //si el campo estado esta vacio coloca los 2 radioButons en falso, para que se puedan volver a seleccionar
+            if (txtEstado.Text == "")
+            {
+                rdActivo.Checked = false;
+                rdInactivo.Checked = false;
+            }
+            if (txtEstado.Text == "1")
+            {
+                rdActivo.Checked = true;
+            }
         }
     }
 }
