@@ -98,10 +98,10 @@
             // btnBuscar
             // 
             this.btnBuscar.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(668, 16);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.btnBuscar.Location = new System.Drawing.Point(891, 20);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(169, 46);
+            this.btnBuscar.Size = new System.Drawing.Size(225, 57);
             this.btnBuscar.TabIndex = 20;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -112,11 +112,11 @@
             this.tbcContratar.Controls.Add(this.tbpDatosGenerales);
             this.tbcContratar.Controls.Add(this.tbpDatosPersonales);
             this.tbcContratar.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbcContratar.Location = new System.Drawing.Point(4, 69);
-            this.tbcContratar.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.tbcContratar.Location = new System.Drawing.Point(5, 85);
+            this.tbcContratar.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.tbcContratar.Name = "tbcContratar";
             this.tbcContratar.SelectedIndex = 0;
-            this.tbcContratar.Size = new System.Drawing.Size(1008, 570);
+            this.tbcContratar.Size = new System.Drawing.Size(1344, 578);
             this.tbcContratar.TabIndex = 19;
             // 
             // tbpDatosGenerales
@@ -125,11 +125,11 @@
             this.tbpDatosGenerales.Controls.Add(this.gbxDatos1);
             this.tbpDatosGenerales.Controls.Add(this.gbxFoto);
             this.tbpDatosGenerales.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbpDatosGenerales.Location = new System.Drawing.Point(4, 26);
-            this.tbpDatosGenerales.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.tbpDatosGenerales.Location = new System.Drawing.Point(4, 29);
+            this.tbpDatosGenerales.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.tbpDatosGenerales.Name = "tbpDatosGenerales";
-            this.tbpDatosGenerales.Padding = new System.Windows.Forms.Padding(5, 2, 5, 2);
-            this.tbpDatosGenerales.Size = new System.Drawing.Size(1000, 540);
+            this.tbpDatosGenerales.Padding = new System.Windows.Forms.Padding(7, 2, 7, 2);
+            this.tbpDatosGenerales.Size = new System.Drawing.Size(1336, 545);
             this.tbpDatosGenerales.TabIndex = 0;
             this.tbpDatosGenerales.Text = "Datos Generales";
             // 
@@ -154,19 +154,21 @@
             this.gbxDatos1.Controls.Add(this.cmbTipoContrato);
             this.gbxDatos1.Controls.Add(this.txtLink);
             this.gbxDatos1.Enabled = false;
-            this.gbxDatos1.Location = new System.Drawing.Point(3, 5);
+            this.gbxDatos1.Location = new System.Drawing.Point(4, 6);
+            this.gbxDatos1.Margin = new System.Windows.Forms.Padding(4);
             this.gbxDatos1.Name = "gbxDatos1";
-            this.gbxDatos1.Size = new System.Drawing.Size(556, 525);
+            this.gbxDatos1.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxDatos1.Size = new System.Drawing.Size(741, 496);
             this.gbxDatos1.TabIndex = 48;
             this.gbxDatos1.TabStop = false;
             // 
             // txtCuentaBanc
             // 
             this.txtCuentaBanc.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtCuentaBanc.Location = new System.Drawing.Point(223, 128);
-            this.txtCuentaBanc.Margin = new System.Windows.Forms.Padding(5);
+            this.txtCuentaBanc.Location = new System.Drawing.Point(297, 131);
+            this.txtCuentaBanc.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.txtCuentaBanc.Name = "txtCuentaBanc";
-            this.txtCuentaBanc.Size = new System.Drawing.Size(301, 23);
+            this.txtCuentaBanc.Size = new System.Drawing.Size(400, 27);
             this.txtCuentaBanc.TabIndex = 47;
             this.txtCuentaBanc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcNumero);
             // 
@@ -174,10 +176,10 @@
             // 
             this.lblFechaContratacion.AutoSize = true;
             this.lblFechaContratacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblFechaContratacion.Location = new System.Drawing.Point(8, 232);
-            this.lblFechaContratacion.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblFechaContratacion.Location = new System.Drawing.Point(11, 234);
+            this.lblFechaContratacion.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblFechaContratacion.Name = "lblFechaContratacion";
-            this.lblFechaContratacion.Size = new System.Drawing.Size(153, 17);
+            this.lblFechaContratacion.Size = new System.Drawing.Size(186, 20);
             this.lblFechaContratacion.TabIndex = 45;
             this.lblFechaContratacion.Text = "Fecha de Contratación";
             // 
@@ -185,10 +187,10 @@
             // 
             this.lblCuentaBanc.AutoSize = true;
             this.lblCuentaBanc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblCuentaBanc.Location = new System.Drawing.Point(8, 131);
-            this.lblCuentaBanc.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblCuentaBanc.Location = new System.Drawing.Point(11, 134);
+            this.lblCuentaBanc.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblCuentaBanc.Name = "lblCuentaBanc";
-            this.lblCuentaBanc.Size = new System.Drawing.Size(168, 17);
+            this.lblCuentaBanc.Size = new System.Drawing.Size(206, 20);
             this.lblCuentaBanc.TabIndex = 46;
             this.lblCuentaBanc.Text = "Número Cuenta Bancaria";
             // 
@@ -197,10 +199,10 @@
             this.lblApellido.AutoSize = true;
             this.lblApellido.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblApellido.Location = new System.Drawing.Point(8, 79);
-            this.lblApellido.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblApellido.Location = new System.Drawing.Point(11, 82);
+            this.lblApellido.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(70, 17);
+            this.lblApellido.Size = new System.Drawing.Size(84, 20);
             this.lblApellido.TabIndex = 3;
             this.lblApellido.Text = "Apellidos";
             // 
@@ -209,10 +211,10 @@
             this.cmbHorario.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbHorario.Enabled = false;
             this.cmbHorario.FormattingEnabled = true;
-            this.cmbHorario.Location = new System.Drawing.Point(223, 484);
-            this.cmbHorario.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbHorario.Location = new System.Drawing.Point(297, 445);
+            this.cmbHorario.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.cmbHorario.Name = "cmbHorario";
-            this.cmbHorario.Size = new System.Drawing.Size(301, 25);
+            this.cmbHorario.Size = new System.Drawing.Size(400, 28);
             this.cmbHorario.TabIndex = 28;
             // 
             // lblNombres
@@ -220,10 +222,10 @@
             this.lblNombres.AutoSize = true;
             this.lblNombres.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombres.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblNombres.Location = new System.Drawing.Point(8, 30);
-            this.lblNombres.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblNombres.Location = new System.Drawing.Point(11, 37);
+            this.lblNombres.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblNombres.Name = "lblNombres";
-            this.lblNombres.Size = new System.Drawing.Size(67, 17);
+            this.lblNombres.Size = new System.Drawing.Size(81, 20);
             this.lblNombres.TabIndex = 1;
             this.lblNombres.Text = "Nombres";
             // 
@@ -231,10 +233,10 @@
             // 
             this.txtNombres.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtNombres.Enabled = false;
-            this.txtNombres.Location = new System.Drawing.Point(223, 27);
-            this.txtNombres.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.txtNombres.Location = new System.Drawing.Point(297, 33);
+            this.txtNombres.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.txtNombres.Name = "txtNombres";
-            this.txtNombres.Size = new System.Drawing.Size(301, 23);
+            this.txtNombres.Size = new System.Drawing.Size(400, 27);
             this.txtNombres.TabIndex = 5;
             this.txtNombres.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcLetra);
             // 
@@ -243,10 +245,10 @@
             this.lblHorario.AutoSize = true;
             this.lblHorario.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHorario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblHorario.Location = new System.Drawing.Point(8, 492);
-            this.lblHorario.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblHorario.Location = new System.Drawing.Point(11, 455);
+            this.lblHorario.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblHorario.Name = "lblHorario";
-            this.lblHorario.Size = new System.Drawing.Size(61, 17);
+            this.lblHorario.Size = new System.Drawing.Size(73, 20);
             this.lblHorario.TabIndex = 28;
             this.lblHorario.Text = "Horario ";
             // 
@@ -254,19 +256,19 @@
             // 
             this.txtApellido.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtApellido.Enabled = false;
-            this.txtApellido.Location = new System.Drawing.Point(223, 79);
-            this.txtApellido.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.txtApellido.Location = new System.Drawing.Point(297, 82);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(301, 23);
+            this.txtApellido.Size = new System.Drawing.Size(400, 27);
             this.txtApellido.TabIndex = 7;
             this.txtApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcLetra);
             // 
             // dtpFechaContratacion
             // 
-            this.dtpFechaContratacion.Location = new System.Drawing.Point(223, 232);
-            this.dtpFechaContratacion.Margin = new System.Windows.Forms.Padding(5);
+            this.dtpFechaContratacion.Location = new System.Drawing.Point(297, 234);
+            this.dtpFechaContratacion.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.dtpFechaContratacion.Name = "dtpFechaContratacion";
-            this.dtpFechaContratacion.Size = new System.Drawing.Size(317, 23);
+            this.dtpFechaContratacion.Size = new System.Drawing.Size(421, 27);
             this.dtpFechaContratacion.TabIndex = 44;
             // 
             // label1
@@ -274,10 +276,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(4, 180);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Location = new System.Drawing.Point(5, 185);
+            this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 17);
+            this.label1.Size = new System.Drawing.Size(141, 20);
             this.label1.TabIndex = 24;
             this.label1.Text = "Tipo de Contrato";
             // 
@@ -286,10 +288,10 @@
             this.cmbDepartamentoTrabajo.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbDepartamentoTrabajo.Enabled = false;
             this.cmbDepartamentoTrabajo.FormattingEnabled = true;
-            this.cmbDepartamentoTrabajo.Location = new System.Drawing.Point(223, 429);
-            this.cmbDepartamentoTrabajo.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbDepartamentoTrabajo.Location = new System.Drawing.Point(297, 403);
+            this.cmbDepartamentoTrabajo.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.cmbDepartamentoTrabajo.Name = "cmbDepartamentoTrabajo";
-            this.cmbDepartamentoTrabajo.Size = new System.Drawing.Size(301, 25);
+            this.cmbDepartamentoTrabajo.Size = new System.Drawing.Size(400, 28);
             this.cmbDepartamentoTrabajo.TabIndex = 36;
             // 
             // lblLink
@@ -297,10 +299,10 @@
             this.lblLink.AutoSize = true;
             this.lblLink.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLink.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblLink.Location = new System.Drawing.Point(8, 279);
-            this.lblLink.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblLink.Location = new System.Drawing.Point(10, 284);
+            this.lblLink.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblLink.Name = "lblLink";
-            this.lblLink.Size = new System.Drawing.Size(279, 17);
+            this.lblLink.Size = new System.Drawing.Size(336, 20);
             this.lblLink.TabIndex = 25;
             this.lblLink.Text = "Link Fotografía del Empleado a Contratar:";
             // 
@@ -309,10 +311,10 @@
             this.cmbPuesto.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbPuesto.Enabled = false;
             this.cmbPuesto.FormattingEnabled = true;
-            this.cmbPuesto.Location = new System.Drawing.Point(223, 380);
-            this.cmbPuesto.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbPuesto.Location = new System.Drawing.Point(297, 363);
+            this.cmbPuesto.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.cmbPuesto.Name = "cmbPuesto";
-            this.cmbPuesto.Size = new System.Drawing.Size(301, 25);
+            this.cmbPuesto.Size = new System.Drawing.Size(400, 28);
             this.cmbPuesto.TabIndex = 37;
             // 
             // lblPuesto
@@ -320,10 +322,10 @@
             this.lblPuesto.AutoSize = true;
             this.lblPuesto.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPuesto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblPuesto.Location = new System.Drawing.Point(8, 383);
-            this.lblPuesto.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblPuesto.Location = new System.Drawing.Point(11, 366);
+            this.lblPuesto.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblPuesto.Name = "lblPuesto";
-            this.lblPuesto.Size = new System.Drawing.Size(50, 17);
+            this.lblPuesto.Size = new System.Drawing.Size(62, 20);
             this.lblPuesto.TabIndex = 19;
             this.lblPuesto.Text = "Puesto";
             // 
@@ -332,10 +334,10 @@
             this.lblDepartamentoTrabajo.AutoSize = true;
             this.lblDepartamentoTrabajo.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDepartamentoTrabajo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblDepartamentoTrabajo.Location = new System.Drawing.Point(8, 429);
-            this.lblDepartamentoTrabajo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblDepartamentoTrabajo.Location = new System.Drawing.Point(11, 403);
+            this.lblDepartamentoTrabajo.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblDepartamentoTrabajo.Name = "lblDepartamentoTrabajo";
-            this.lblDepartamentoTrabajo.Size = new System.Drawing.Size(99, 17);
+            this.lblDepartamentoTrabajo.Size = new System.Drawing.Size(121, 20);
             this.lblDepartamentoTrabajo.TabIndex = 18;
             this.lblDepartamentoTrabajo.Text = "Departamento";
             // 
@@ -343,19 +345,19 @@
             // 
             this.cmbTipoContrato.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbTipoContrato.FormattingEnabled = true;
-            this.cmbTipoContrato.Location = new System.Drawing.Point(223, 177);
-            this.cmbTipoContrato.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbTipoContrato.Location = new System.Drawing.Point(297, 181);
+            this.cmbTipoContrato.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.cmbTipoContrato.Name = "cmbTipoContrato";
-            this.cmbTipoContrato.Size = new System.Drawing.Size(301, 25);
+            this.cmbTipoContrato.Size = new System.Drawing.Size(400, 28);
             this.cmbTipoContrato.TabIndex = 38;
             // 
             // txtLink
             // 
             this.txtLink.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtLink.Location = new System.Drawing.Point(8, 324);
-            this.txtLink.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.txtLink.Location = new System.Drawing.Point(10, 317);
+            this.txtLink.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.txtLink.Name = "txtLink";
-            this.txtLink.Size = new System.Drawing.Size(532, 23);
+            this.txtLink.Size = new System.Drawing.Size(708, 27);
             this.txtLink.TabIndex = 39;
             // 
             // gbxFoto
@@ -364,19 +366,21 @@
             this.gbxFoto.Controls.Add(this.lblFoto);
             this.gbxFoto.Controls.Add(this.pcbFoto);
             this.gbxFoto.Enabled = false;
-            this.gbxFoto.Location = new System.Drawing.Point(626, 35);
+            this.gbxFoto.Location = new System.Drawing.Point(830, 20);
+            this.gbxFoto.Margin = new System.Windows.Forms.Padding(4);
             this.gbxFoto.Name = "gbxFoto";
-            this.gbxFoto.Size = new System.Drawing.Size(307, 392);
+            this.gbxFoto.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxFoto.Size = new System.Drawing.Size(409, 482);
             this.gbxFoto.TabIndex = 47;
             this.gbxFoto.TabStop = false;
             // 
             // btnCargarFoto
             // 
             this.btnCargarFoto.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarFoto.Location = new System.Drawing.Point(85, 312);
-            this.btnCargarFoto.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.btnCargarFoto.Location = new System.Drawing.Point(113, 384);
+            this.btnCargarFoto.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.btnCargarFoto.Name = "btnCargarFoto";
-            this.btnCargarFoto.Size = new System.Drawing.Size(151, 61);
+            this.btnCargarFoto.Size = new System.Drawing.Size(201, 75);
             this.btnCargarFoto.TabIndex = 28;
             this.btnCargarFoto.Text = "Mostrar Fotografía";
             this.btnCargarFoto.UseVisualStyleBackColor = true;
@@ -387,33 +391,34 @@
             this.lblFoto.AutoSize = true;
             this.lblFoto.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFoto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblFoto.Location = new System.Drawing.Point(111, 23);
-            this.lblFoto.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblFoto.Location = new System.Drawing.Point(148, 28);
+            this.lblFoto.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblFoto.Name = "lblFoto";
-            this.lblFoto.Size = new System.Drawing.Size(77, 17);
+            this.lblFoto.Size = new System.Drawing.Size(92, 20);
             this.lblFoto.TabIndex = 47;
             this.lblFoto.Text = "Fotografía ";
             // 
             // pcbFoto
             // 
-            this.pcbFoto.Location = new System.Drawing.Point(31, 54);
+            this.pcbFoto.Location = new System.Drawing.Point(41, 66);
+            this.pcbFoto.Margin = new System.Windows.Forms.Padding(4);
             this.pcbFoto.Name = "pcbFoto";
-            this.pcbFoto.Size = new System.Drawing.Size(248, 241);
+            this.pcbFoto.Size = new System.Drawing.Size(331, 297);
             this.pcbFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcbFoto.TabIndex = 40;
             this.pcbFoto.TabStop = false;
             // 
             // tbpDatosPersonales
             // 
-            this.tbpDatosPersonales.BackColor = System.Drawing.Color.Purple;
+            this.tbpDatosPersonales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(57)))), ((int)(((byte)(139)))));
             this.tbpDatosPersonales.Controls.Add(this.gbxDatosP3);
             this.tbpDatosPersonales.Controls.Add(this.gbxDatosP2);
             this.tbpDatosPersonales.Controls.Add(this.gbxFormacionAcademica);
             this.tbpDatosPersonales.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbpDatosPersonales.Location = new System.Drawing.Point(4, 26);
-            this.tbpDatosPersonales.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.tbpDatosPersonales.Location = new System.Drawing.Point(4, 29);
+            this.tbpDatosPersonales.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.tbpDatosPersonales.Name = "tbpDatosPersonales";
-            this.tbpDatosPersonales.Size = new System.Drawing.Size(1000, 540);
+            this.tbpDatosPersonales.Size = new System.Drawing.Size(1336, 545);
             this.tbpDatosPersonales.TabIndex = 3;
             this.tbpDatosPersonales.Text = "Datos Personales";
             // 
@@ -426,9 +431,11 @@
             this.gbxDatosP3.Controls.Add(this.lblNumeroIgss);
             this.gbxDatosP3.Controls.Add(this.lblTipoLicencia);
             this.gbxDatosP3.Enabled = false;
-            this.gbxDatosP3.Location = new System.Drawing.Point(583, 70);
+            this.gbxDatosP3.Location = new System.Drawing.Point(777, 86);
+            this.gbxDatosP3.Margin = new System.Windows.Forms.Padding(4);
             this.gbxDatosP3.Name = "gbxDatosP3";
-            this.gbxDatosP3.Size = new System.Drawing.Size(410, 178);
+            this.gbxDatosP3.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxDatosP3.Size = new System.Drawing.Size(547, 219);
             this.gbxDatosP3.TabIndex = 46;
             this.gbxDatosP3.TabStop = false;
             // 
@@ -436,10 +443,10 @@
             // 
             this.txtNumeroIgss.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtNumeroIgss.Enabled = false;
-            this.txtNumeroIgss.Location = new System.Drawing.Point(218, 132);
-            this.txtNumeroIgss.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.txtNumeroIgss.Location = new System.Drawing.Point(291, 162);
+            this.txtNumeroIgss.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.txtNumeroIgss.Name = "txtNumeroIgss";
-            this.txtNumeroIgss.Size = new System.Drawing.Size(182, 23);
+            this.txtNumeroIgss.Size = new System.Drawing.Size(241, 27);
             this.txtNumeroIgss.TabIndex = 46;
             // 
             // cmbTipoLicencia
@@ -447,20 +454,20 @@
             this.cmbTipoLicencia.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbTipoLicencia.Enabled = false;
             this.cmbTipoLicencia.FormattingEnabled = true;
-            this.cmbTipoLicencia.Location = new System.Drawing.Point(218, 78);
-            this.cmbTipoLicencia.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbTipoLicencia.Location = new System.Drawing.Point(291, 96);
+            this.cmbTipoLicencia.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.cmbTipoLicencia.Name = "cmbTipoLicencia";
-            this.cmbTipoLicencia.Size = new System.Drawing.Size(182, 25);
+            this.cmbTipoLicencia.Size = new System.Drawing.Size(241, 28);
             this.cmbTipoLicencia.TabIndex = 34;
             // 
             // lblEstadoCivil
             // 
             this.lblEstadoCivil.AutoSize = true;
             this.lblEstadoCivil.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblEstadoCivil.Location = new System.Drawing.Point(4, 36);
-            this.lblEstadoCivil.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblEstadoCivil.Location = new System.Drawing.Point(5, 44);
+            this.lblEstadoCivil.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblEstadoCivil.Name = "lblEstadoCivil";
-            this.lblEstadoCivil.Size = new System.Drawing.Size(86, 17);
+            this.lblEstadoCivil.Size = new System.Drawing.Size(103, 20);
             this.lblEstadoCivil.TabIndex = 22;
             this.lblEstadoCivil.Text = "Estado Civil";
             // 
@@ -469,10 +476,10 @@
             this.cmbEstadoCivil.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbEstadoCivil.Enabled = false;
             this.cmbEstadoCivil.FormattingEnabled = true;
-            this.cmbEstadoCivil.Location = new System.Drawing.Point(218, 30);
-            this.cmbEstadoCivil.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbEstadoCivil.Location = new System.Drawing.Point(291, 37);
+            this.cmbEstadoCivil.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.cmbEstadoCivil.Name = "cmbEstadoCivil";
-            this.cmbEstadoCivil.Size = new System.Drawing.Size(182, 25);
+            this.cmbEstadoCivil.Size = new System.Drawing.Size(241, 28);
             this.cmbEstadoCivil.TabIndex = 33;
             // 
             // lblNumeroIgss
@@ -480,10 +487,10 @@
             this.lblNumeroIgss.AutoSize = true;
             this.lblNumeroIgss.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumeroIgss.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblNumeroIgss.Location = new System.Drawing.Point(8, 135);
-            this.lblNumeroIgss.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblNumeroIgss.Location = new System.Drawing.Point(11, 166);
+            this.lblNumeroIgss.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblNumeroIgss.Name = "lblNumeroIgss";
-            this.lblNumeroIgss.Size = new System.Drawing.Size(114, 17);
+            this.lblNumeroIgss.Size = new System.Drawing.Size(137, 20);
             this.lblNumeroIgss.TabIndex = 45;
             this.lblNumeroIgss.Text = "Número del Igss";
             // 
@@ -491,10 +498,10 @@
             // 
             this.lblTipoLicencia.AutoSize = true;
             this.lblTipoLicencia.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTipoLicencia.Location = new System.Drawing.Point(5, 81);
-            this.lblTipoLicencia.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblTipoLicencia.Location = new System.Drawing.Point(7, 100);
+            this.lblTipoLicencia.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblTipoLicencia.Name = "lblTipoLicencia";
-            this.lblTipoLicencia.Size = new System.Drawing.Size(158, 17);
+            this.lblTipoLicencia.Size = new System.Drawing.Size(192, 20);
             this.lblTipoLicencia.TabIndex = 29;
             this.lblTipoLicencia.Text = "Tipo Licencia Conducir";
             // 
@@ -511,39 +518,41 @@
             this.gbxDatosP2.Controls.Add(this.lblTelefono);
             this.gbxDatosP2.Controls.Add(this.lblSexo);
             this.gbxDatosP2.Enabled = false;
-            this.gbxDatosP2.Location = new System.Drawing.Point(19, 32);
+            this.gbxDatosP2.Location = new System.Drawing.Point(25, 39);
+            this.gbxDatosP2.Margin = new System.Windows.Forms.Padding(4);
             this.gbxDatosP2.Name = "gbxDatosP2";
-            this.gbxDatosP2.Size = new System.Drawing.Size(546, 244);
+            this.gbxDatosP2.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxDatosP2.Size = new System.Drawing.Size(728, 300);
             this.gbxDatosP2.TabIndex = 45;
             this.gbxDatosP2.TabStop = false;
             // 
             // txtTelefono
             // 
             this.txtTelefono.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtTelefono.Location = new System.Drawing.Point(194, 158);
-            this.txtTelefono.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTelefono.Location = new System.Drawing.Point(259, 194);
+            this.txtTelefono.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(140, 23);
+            this.txtTelefono.Size = new System.Drawing.Size(185, 27);
             this.txtTelefono.TabIndex = 12;
             this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcNumero);
             // 
             // txtCorreoElectronico
             // 
             this.txtCorreoElectronico.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtCorreoElectronico.Location = new System.Drawing.Point(194, 111);
-            this.txtCorreoElectronico.Margin = new System.Windows.Forms.Padding(5);
+            this.txtCorreoElectronico.Location = new System.Drawing.Point(259, 137);
+            this.txtCorreoElectronico.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.txtCorreoElectronico.Name = "txtCorreoElectronico";
-            this.txtCorreoElectronico.Size = new System.Drawing.Size(247, 23);
+            this.txtCorreoElectronico.Size = new System.Drawing.Size(328, 27);
             this.txtCorreoElectronico.TabIndex = 11;
             // 
             // dtpFechaNacimiento
             // 
             this.dtpFechaNacimiento.CalendarMonthBackground = System.Drawing.SystemColors.ScrollBar;
             this.dtpFechaNacimiento.Enabled = false;
-            this.dtpFechaNacimiento.Location = new System.Drawing.Point(193, 201);
-            this.dtpFechaNacimiento.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(257, 247);
+            this.dtpFechaNacimiento.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
-            this.dtpFechaNacimiento.Size = new System.Drawing.Size(337, 23);
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(448, 27);
             this.dtpFechaNacimiento.TabIndex = 40;
             // 
             // lblDpi
@@ -551,10 +560,10 @@
             this.lblDpi.AutoSize = true;
             this.lblDpi.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDpi.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblDpi.Location = new System.Drawing.Point(9, 74);
-            this.lblDpi.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblDpi.Location = new System.Drawing.Point(12, 91);
+            this.lblDpi.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblDpi.Name = "lblDpi";
-            this.lblDpi.Size = new System.Drawing.Size(30, 17);
+            this.lblDpi.Size = new System.Drawing.Size(36, 20);
             this.lblDpi.TabIndex = 38;
             this.lblDpi.Text = "DPI";
             // 
@@ -562,20 +571,20 @@
             // 
             this.txtGenero.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtGenero.Enabled = false;
-            this.txtGenero.Location = new System.Drawing.Point(194, 25);
-            this.txtGenero.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.txtGenero.Location = new System.Drawing.Point(259, 31);
+            this.txtGenero.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.txtGenero.Name = "txtGenero";
-            this.txtGenero.Size = new System.Drawing.Size(140, 23);
+            this.txtGenero.Size = new System.Drawing.Size(185, 27);
             this.txtGenero.TabIndex = 1;
             // 
             // txtDpi
             // 
             this.txtDpi.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtDpi.Enabled = false;
-            this.txtDpi.Location = new System.Drawing.Point(194, 67);
-            this.txtDpi.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.txtDpi.Location = new System.Drawing.Point(259, 82);
+            this.txtDpi.Margin = new System.Windows.Forms.Padding(7, 2, 7, 2);
             this.txtDpi.Name = "txtDpi";
-            this.txtDpi.Size = new System.Drawing.Size(140, 23);
+            this.txtDpi.Size = new System.Drawing.Size(185, 27);
             this.txtDpi.TabIndex = 37;
             // 
             // lblFechaNacimiento
@@ -583,10 +592,10 @@
             this.lblFechaNacimiento.AutoSize = true;
             this.lblFechaNacimiento.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaNacimiento.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblFechaNacimiento.Location = new System.Drawing.Point(9, 206);
-            this.lblFechaNacimiento.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblFechaNacimiento.Location = new System.Drawing.Point(12, 254);
+            this.lblFechaNacimiento.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblFechaNacimiento.Name = "lblFechaNacimiento";
-            this.lblFechaNacimiento.Size = new System.Drawing.Size(143, 17);
+            this.lblFechaNacimiento.Size = new System.Drawing.Size(174, 20);
             this.lblFechaNacimiento.TabIndex = 39;
             this.lblFechaNacimiento.Text = "Fecha de Nacimiento";
             // 
@@ -594,10 +603,10 @@
             // 
             this.lblCorreoElectronico.AutoSize = true;
             this.lblCorreoElectronico.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblCorreoElectronico.Location = new System.Drawing.Point(9, 114);
-            this.lblCorreoElectronico.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblCorreoElectronico.Location = new System.Drawing.Point(12, 140);
+            this.lblCorreoElectronico.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblCorreoElectronico.Name = "lblCorreoElectronico";
-            this.lblCorreoElectronico.Size = new System.Drawing.Size(132, 17);
+            this.lblCorreoElectronico.Size = new System.Drawing.Size(161, 20);
             this.lblCorreoElectronico.TabIndex = 22;
             this.lblCorreoElectronico.Text = "Correo Electrónico";
             // 
@@ -605,10 +614,10 @@
             // 
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTelefono.Location = new System.Drawing.Point(9, 161);
-            this.lblTelefono.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblTelefono.Location = new System.Drawing.Point(12, 198);
+            this.lblTelefono.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(64, 17);
+            this.lblTelefono.Size = new System.Drawing.Size(79, 20);
             this.lblTelefono.TabIndex = 11;
             this.lblTelefono.Text = "Teléfono";
             // 
@@ -617,10 +626,10 @@
             this.lblSexo.AutoSize = true;
             this.lblSexo.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSexo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblSexo.Location = new System.Drawing.Point(9, 28);
-            this.lblSexo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblSexo.Location = new System.Drawing.Point(12, 34);
+            this.lblSexo.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblSexo.Name = "lblSexo";
-            this.lblSexo.Size = new System.Drawing.Size(39, 17);
+            this.lblSexo.Size = new System.Drawing.Size(47, 20);
             this.lblSexo.TabIndex = 42;
             this.lblSexo.Text = "Sexo";
             // 
@@ -632,11 +641,11 @@
             this.gbxFormacionAcademica.Controls.Add(this.lblNivelEstudios);
             this.gbxFormacionAcademica.Enabled = false;
             this.gbxFormacionAcademica.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.gbxFormacionAcademica.Location = new System.Drawing.Point(19, 301);
-            this.gbxFormacionAcademica.Margin = new System.Windows.Forms.Padding(5);
+            this.gbxFormacionAcademica.Location = new System.Drawing.Point(25, 370);
+            this.gbxFormacionAcademica.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.gbxFormacionAcademica.Name = "gbxFormacionAcademica";
-            this.gbxFormacionAcademica.Padding = new System.Windows.Forms.Padding(5);
-            this.gbxFormacionAcademica.Size = new System.Drawing.Size(546, 132);
+            this.gbxFormacionAcademica.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.gbxFormacionAcademica.Size = new System.Drawing.Size(728, 162);
             this.gbxFormacionAcademica.TabIndex = 27;
             this.gbxFormacionAcademica.TabStop = false;
             this.gbxFormacionAcademica.Text = "Formación Académica";
@@ -645,20 +654,20 @@
             // 
             this.cmbNivelEstudios.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbNivelEstudios.FormattingEnabled = true;
-            this.cmbNivelEstudios.Location = new System.Drawing.Point(236, 38);
-            this.cmbNivelEstudios.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbNivelEstudios.Location = new System.Drawing.Point(315, 47);
+            this.cmbNivelEstudios.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.cmbNivelEstudios.Name = "cmbNivelEstudios";
-            this.cmbNivelEstudios.Size = new System.Drawing.Size(294, 25);
+            this.cmbNivelEstudios.Size = new System.Drawing.Size(391, 28);
             this.cmbNivelEstudios.TabIndex = 14;
             // 
             // txtProfesion
             // 
             this.txtProfesion.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtProfesion.Enabled = false;
-            this.txtProfesion.Location = new System.Drawing.Point(236, 90);
-            this.txtProfesion.Margin = new System.Windows.Forms.Padding(5);
+            this.txtProfesion.Location = new System.Drawing.Point(315, 111);
+            this.txtProfesion.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.txtProfesion.Name = "txtProfesion";
-            this.txtProfesion.Size = new System.Drawing.Size(294, 23);
+            this.txtProfesion.Size = new System.Drawing.Size(391, 27);
             this.txtProfesion.TabIndex = 13;
             this.txtProfesion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcLetra);
             // 
@@ -666,10 +675,10 @@
             // 
             this.lblProfesion.AutoSize = true;
             this.lblProfesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblProfesion.Location = new System.Drawing.Point(10, 93);
-            this.lblProfesion.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblProfesion.Location = new System.Drawing.Point(13, 114);
+            this.lblProfesion.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblProfesion.Name = "lblProfesion";
-            this.lblProfesion.Size = new System.Drawing.Size(68, 17);
+            this.lblProfesion.Size = new System.Drawing.Size(84, 20);
             this.lblProfesion.TabIndex = 1;
             this.lblProfesion.Text = "Profesión";
             // 
@@ -677,10 +686,10 @@
             // 
             this.lblNivelEstudios.AutoSize = true;
             this.lblNivelEstudios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblNivelEstudios.Location = new System.Drawing.Point(11, 41);
-            this.lblNivelEstudios.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblNivelEstudios.Location = new System.Drawing.Point(15, 50);
+            this.lblNivelEstudios.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblNivelEstudios.Name = "lblNivelEstudios";
-            this.lblNivelEstudios.Size = new System.Drawing.Size(121, 17);
+            this.lblNivelEstudios.Size = new System.Drawing.Size(145, 20);
             this.lblNivelEstudios.TabIndex = 0;
             this.lblNivelEstudios.Text = "Nivel de Estudios";
             // 
@@ -688,10 +697,10 @@
             // 
             this.txtIdBancoTalento.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtIdBancoTalento.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdBancoTalento.Location = new System.Drawing.Point(474, 26);
-            this.txtIdBancoTalento.Margin = new System.Windows.Forms.Padding(5);
+            this.txtIdBancoTalento.Location = new System.Drawing.Point(632, 32);
+            this.txtIdBancoTalento.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.txtIdBancoTalento.Name = "txtIdBancoTalento";
-            this.txtIdBancoTalento.Size = new System.Drawing.Size(160, 23);
+            this.txtIdBancoTalento.Size = new System.Drawing.Size(212, 27);
             this.txtIdBancoTalento.TabIndex = 26;
             this.txtIdBancoTalento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcNumero);
             // 
@@ -700,10 +709,10 @@
             this.lblIngreseIDRecluta.AutoSize = true;
             this.lblIngreseIDRecluta.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIngreseIDRecluta.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblIngreseIDRecluta.Location = new System.Drawing.Point(70, 29);
-            this.lblIngreseIDRecluta.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblIngreseIDRecluta.Location = new System.Drawing.Point(93, 36);
+            this.lblIngreseIDRecluta.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblIngreseIDRecluta.Name = "lblIngreseIDRecluta";
-            this.lblIngreseIDRecluta.Size = new System.Drawing.Size(316, 17);
+            this.lblIngreseIDRecluta.Size = new System.Drawing.Size(382, 20);
             this.lblIngreseIDRecluta.TabIndex = 27;
             this.lblIngreseIDRecluta.Text = "Ingrese el ID del Recluta en el Banco de Talento";
             // 
@@ -711,10 +720,10 @@
             // 
             this.btnContratar.Enabled = false;
             this.btnContratar.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnContratar.Location = new System.Drawing.Point(719, 646);
-            this.btnContratar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnContratar.Location = new System.Drawing.Point(961, 694);
+            this.btnContratar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnContratar.Name = "btnContratar";
-            this.btnContratar.Size = new System.Drawing.Size(287, 76);
+            this.btnContratar.Size = new System.Drawing.Size(383, 94);
             this.btnContratar.TabIndex = 20;
             this.btnContratar.Text = "Contratar";
             this.btnContratar.UseVisualStyleBackColor = true;
@@ -723,10 +732,10 @@
             // btnBancoTalento
             // 
             this.btnBancoTalento.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBancoTalento.Location = new System.Drawing.Point(4, 646);
-            this.btnBancoTalento.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnBancoTalento.Location = new System.Drawing.Point(5, 685);
+            this.btnBancoTalento.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.btnBancoTalento.Name = "btnBancoTalento";
-            this.btnBancoTalento.Size = new System.Drawing.Size(231, 84);
+            this.btnBancoTalento.Size = new System.Drawing.Size(308, 103);
             this.btnBancoTalento.TabIndex = 36;
             this.btnBancoTalento.Text = "Ver Lista Banco Talento";
             this.btnBancoTalento.UseVisualStyleBackColor = true;
@@ -735,20 +744,20 @@
             // btnAyuda
             // 
             this.btnAyuda.Image = ((System.Drawing.Image)(resources.GetObject("btnAyuda.Image")));
-            this.btnAyuda.Location = new System.Drawing.Point(936, 4);
-            this.btnAyuda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAyuda.Location = new System.Drawing.Point(1248, 5);
+            this.btnAyuda.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnAyuda.Name = "btnAyuda";
-            this.btnAyuda.Size = new System.Drawing.Size(72, 72);
+            this.btnAyuda.Size = new System.Drawing.Size(96, 89);
             this.btnAyuda.TabIndex = 129;
             this.btnAyuda.UseVisualStyleBackColor = true;
             this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
             // 
             // frmContratacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(57)))), ((int)(((byte)(139)))));
-            this.ClientSize = new System.Drawing.Size(1013, 735);
+            this.ClientSize = new System.Drawing.Size(1351, 799);
             this.Controls.Add(this.btnAyuda);
             this.Controls.Add(this.btnBancoTalento);
             this.Controls.Add(this.btnContratar);
@@ -758,7 +767,7 @@
             this.Controls.Add(this.lblIngreseIDRecluta);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(5);
+            this.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmContratacion";

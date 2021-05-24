@@ -102,10 +102,10 @@
             this.tbpDatosRecluta.Controls.Add(this.lblIngreseIdRecluta);
             this.tbpDatosRecluta.Controls.Add(this.txtIdBancoTalento);
             this.tbpDatosRecluta.Controls.Add(this.btnBuscar);
-            this.tbpDatosRecluta.Location = new System.Drawing.Point(4, 26);
+            this.tbpDatosRecluta.Location = new System.Drawing.Point(4, 29);
             this.tbpDatosRecluta.Name = "tbpDatosRecluta";
             this.tbpDatosRecluta.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpDatosRecluta.Size = new System.Drawing.Size(791, 625);
+            this.tbpDatosRecluta.Size = new System.Drawing.Size(791, 622);
             this.tbpDatosRecluta.TabIndex = 0;
             this.tbpDatosRecluta.Text = "Datos Recluta";
             // 
@@ -143,7 +143,7 @@
             this.lblHorario.Location = new System.Drawing.Point(12, 172);
             this.lblHorario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHorario.Name = "lblHorario";
-            this.lblHorario.Size = new System.Drawing.Size(131, 17);
+            this.lblHorario.Size = new System.Drawing.Size(157, 20);
             this.lblHorario.TabIndex = 36;
             this.lblHorario.Text = "Horario que Aplica";
             // 
@@ -155,7 +155,7 @@
             this.cmbDepartamentoTrabajo.Location = new System.Drawing.Point(16, 125);
             this.cmbDepartamentoTrabajo.Margin = new System.Windows.Forms.Padding(4);
             this.cmbDepartamentoTrabajo.Name = "cmbDepartamentoTrabajo";
-            this.cmbDepartamentoTrabajo.Size = new System.Drawing.Size(242, 25);
+            this.cmbDepartamentoTrabajo.Size = new System.Drawing.Size(242, 28);
             this.cmbDepartamentoTrabajo.TabIndex = 35;
             // 
             // cmbHorario
@@ -166,7 +166,7 @@
             this.cmbHorario.Location = new System.Drawing.Point(16, 196);
             this.cmbHorario.Margin = new System.Windows.Forms.Padding(4);
             this.cmbHorario.Name = "cmbHorario";
-            this.cmbHorario.Size = new System.Drawing.Size(242, 25);
+            this.cmbHorario.Size = new System.Drawing.Size(242, 28);
             this.cmbHorario.TabIndex = 36;
             // 
             // lblDepartamentoTrabajo
@@ -177,7 +177,7 @@
             this.lblDepartamentoTrabajo.Location = new System.Drawing.Point(11, 97);
             this.lblDepartamentoTrabajo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDepartamentoTrabajo.Name = "lblDepartamentoTrabajo";
-            this.lblDepartamentoTrabajo.Size = new System.Drawing.Size(173, 17);
+            this.lblDepartamentoTrabajo.Size = new System.Drawing.Size(209, 20);
             this.lblDepartamentoTrabajo.TabIndex = 18;
             this.lblDepartamentoTrabajo.Text = "Departamento que Aplica";
             // 
@@ -189,7 +189,7 @@
             this.cmbPuestoTrabajo.Location = new System.Drawing.Point(16, 54);
             this.cmbPuestoTrabajo.Margin = new System.Windows.Forms.Padding(4);
             this.cmbPuestoTrabajo.Name = "cmbPuestoTrabajo";
-            this.cmbPuestoTrabajo.Size = new System.Drawing.Size(242, 25);
+            this.cmbPuestoTrabajo.Size = new System.Drawing.Size(242, 28);
             this.cmbPuestoTrabajo.TabIndex = 29;
             // 
             // lblPuesto
@@ -200,7 +200,7 @@
             this.lblPuesto.Location = new System.Drawing.Point(11, 28);
             this.lblPuesto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPuesto.Name = "lblPuesto";
-            this.lblPuesto.Size = new System.Drawing.Size(124, 17);
+            this.lblPuesto.Size = new System.Drawing.Size(150, 20);
             this.lblPuesto.TabIndex = 19;
             this.lblPuesto.Text = "Puesto que Aplica";
             // 
@@ -228,7 +228,7 @@
             this.txtResultadoEntrevista.Location = new System.Drawing.Point(186, 183);
             this.txtResultadoEntrevista.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtResultadoEntrevista.Name = "txtResultadoEntrevista";
-            this.txtResultadoEntrevista.Size = new System.Drawing.Size(237, 23);
+            this.txtResultadoEntrevista.Size = new System.Drawing.Size(237, 27);
             this.txtResultadoEntrevista.TabIndex = 36;
             // 
             // txtPrimerApellido
@@ -238,7 +238,7 @@
             this.txtPrimerApellido.Location = new System.Drawing.Point(186, 84);
             this.txtPrimerApellido.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtPrimerApellido.Name = "txtPrimerApellido";
-            this.txtPrimerApellido.Size = new System.Drawing.Size(237, 23);
+            this.txtPrimerApellido.Size = new System.Drawing.Size(237, 27);
             this.txtPrimerApellido.TabIndex = 7;
             // 
             // txtPunteoEntrevista
@@ -248,7 +248,7 @@
             this.txtPunteoEntrevista.Location = new System.Drawing.Point(186, 135);
             this.txtPunteoEntrevista.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtPunteoEntrevista.Name = "txtPunteoEntrevista";
-            this.txtPunteoEntrevista.Size = new System.Drawing.Size(237, 23);
+            this.txtPunteoEntrevista.Size = new System.Drawing.Size(237, 27);
             this.txtPunteoEntrevista.TabIndex = 36;
             // 
             // lblApellidos
@@ -259,7 +259,7 @@
             this.lblApellidos.Location = new System.Drawing.Point(5, 87);
             this.lblApellidos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApellidos.Name = "lblApellidos";
-            this.lblApellidos.Size = new System.Drawing.Size(70, 17);
+            this.lblApellidos.Size = new System.Drawing.Size(84, 20);
             this.lblApellidos.TabIndex = 3;
             this.lblApellidos.Text = "Apellidos";
             // 
@@ -271,7 +271,7 @@
             this.lblResultadoEntrevista.Location = new System.Drawing.Point(5, 183);
             this.lblResultadoEntrevista.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblResultadoEntrevista.Name = "lblResultadoEntrevista";
-            this.lblResultadoEntrevista.Size = new System.Drawing.Size(138, 17);
+            this.lblResultadoEntrevista.Size = new System.Drawing.Size(169, 20);
             this.lblResultadoEntrevista.TabIndex = 37;
             this.lblResultadoEntrevista.Text = "Resultado Entrevista";
             // 
@@ -283,7 +283,7 @@
             this.lblNombres.Location = new System.Drawing.Point(5, 31);
             this.lblNombres.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombres.Name = "lblNombres";
-            this.lblNombres.Size = new System.Drawing.Size(67, 17);
+            this.lblNombres.Size = new System.Drawing.Size(81, 20);
             this.lblNombres.TabIndex = 1;
             this.lblNombres.Text = "Nombres";
             // 
@@ -295,7 +295,7 @@
             this.lblPunteoEntrevista.Location = new System.Drawing.Point(5, 138);
             this.lblPunteoEntrevista.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPunteoEntrevista.Name = "lblPunteoEntrevista";
-            this.lblPunteoEntrevista.Size = new System.Drawing.Size(120, 17);
+            this.lblPunteoEntrevista.Size = new System.Drawing.Size(147, 20);
             this.lblPunteoEntrevista.TabIndex = 36;
             this.lblPunteoEntrevista.Text = "Punteo Entrevista";
             // 
@@ -306,7 +306,7 @@
             this.txtPrimerNombre.Location = new System.Drawing.Point(186, 31);
             this.txtPrimerNombre.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtPrimerNombre.Name = "txtPrimerNombre";
-            this.txtPrimerNombre.Size = new System.Drawing.Size(237, 23);
+            this.txtPrimerNombre.Size = new System.Drawing.Size(237, 27);
             this.txtPrimerNombre.TabIndex = 5;
             // 
             // lblComentariosEntrevista
@@ -315,7 +315,7 @@
             this.lblComentariosEntrevista.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblComentariosEntrevista.Location = new System.Drawing.Point(24, 328);
             this.lblComentariosEntrevista.Name = "lblComentariosEntrevista";
-            this.lblComentariosEntrevista.Size = new System.Drawing.Size(206, 17);
+            this.lblComentariosEntrevista.Size = new System.Drawing.Size(250, 20);
             this.lblComentariosEntrevista.TabIndex = 37;
             this.lblComentariosEntrevista.Text = "Comentarios del Entrevistador";
             // 
@@ -347,7 +347,7 @@
             this.lblIngreseIdRecluta.Location = new System.Drawing.Point(78, 60);
             this.lblIngreseIdRecluta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIngreseIdRecluta.Name = "lblIngreseIdRecluta";
-            this.lblIngreseIdRecluta.Size = new System.Drawing.Size(166, 17);
+            this.lblIngreseIdRecluta.Size = new System.Drawing.Size(200, 20);
             this.lblIngreseIdRecluta.TabIndex = 34;
             this.lblIngreseIdRecluta.Text = "Ingrese el ID del Recluta";
             // 
@@ -357,7 +357,7 @@
             this.txtIdBancoTalento.Location = new System.Drawing.Point(322, 57);
             this.txtIdBancoTalento.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdBancoTalento.Name = "txtIdBancoTalento";
-            this.txtIdBancoTalento.Size = new System.Drawing.Size(184, 23);
+            this.txtIdBancoTalento.Size = new System.Drawing.Size(184, 27);
             this.txtIdBancoTalento.TabIndex = 33;
             this.txtIdBancoTalento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcNumero);
             // 
@@ -375,18 +375,18 @@
             // 
             // tbpDatosEvaluacion
             // 
-            this.tbpDatosEvaluacion.BackColor = System.Drawing.Color.Purple;
+            this.tbpDatosEvaluacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(57)))), ((int)(((byte)(139)))));
             this.tbpDatosEvaluacion.Controls.Add(this.gbxDatosEvaluacion);
-            this.tbpDatosEvaluacion.Location = new System.Drawing.Point(4, 26);
+            this.tbpDatosEvaluacion.Location = new System.Drawing.Point(4, 29);
             this.tbpDatosEvaluacion.Name = "tbpDatosEvaluacion";
             this.tbpDatosEvaluacion.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpDatosEvaluacion.Size = new System.Drawing.Size(791, 625);
+            this.tbpDatosEvaluacion.Size = new System.Drawing.Size(791, 622);
             this.tbpDatosEvaluacion.TabIndex = 1;
             this.tbpDatosEvaluacion.Text = "Datos Evaluacion";
             // 
             // gbxDatosEvaluacion
             // 
-            this.gbxDatosEvaluacion.BackColor = System.Drawing.Color.Purple;
+            this.gbxDatosEvaluacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(57)))), ((int)(((byte)(139)))));
             this.gbxDatosEvaluacion.Controls.Add(this.gbxPunteos);
             this.gbxDatosEvaluacion.Controls.Add(this.txtResultado);
             this.gbxDatosEvaluacion.Controls.Add(this.txtPunteo);
@@ -425,7 +425,7 @@
             this.Punteo3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Punteo3.Location = new System.Drawing.Point(6, 68);
             this.Punteo3.Name = "Punteo3";
-            this.Punteo3.Size = new System.Drawing.Size(123, 17);
+            this.Punteo3.Size = new System.Drawing.Size(143, 20);
             this.Punteo3.TabIndex = 21;
             this.Punteo3.Text = "0 a 50 Reprobado";
             // 
@@ -435,7 +435,7 @@
             this.Punteo2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Punteo2.Location = new System.Drawing.Point(6, 48);
             this.Punteo2.Name = "Punteo2";
-            this.Punteo2.Size = new System.Drawing.Size(166, 17);
+            this.Punteo2.Size = new System.Drawing.Size(196, 20);
             this.Punteo2.TabIndex = 20;
             this.Punteo2.Text = "51 a 79 Segunda Opción";
             // 
@@ -445,7 +445,7 @@
             this.Punteo1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Punteo1.Location = new System.Drawing.Point(6, 28);
             this.Punteo1.Name = "Punteo1";
-            this.Punteo1.Size = new System.Drawing.Size(169, 17);
+            this.Punteo1.Size = new System.Drawing.Size(200, 20);
             this.Punteo1.TabIndex = 19;
             this.Punteo1.Text = "80 a 100 Primera Opción";
             // 
@@ -455,7 +455,7 @@
             this.txtResultado.Enabled = false;
             this.txtResultado.Location = new System.Drawing.Point(248, 137);
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(128, 23);
+            this.txtResultado.Size = new System.Drawing.Size(128, 27);
             this.txtResultado.TabIndex = 18;
             // 
             // txtPunteo
@@ -463,7 +463,7 @@
             this.txtPunteo.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtPunteo.Location = new System.Drawing.Point(248, 76);
             this.txtPunteo.Name = "txtPunteo";
-            this.txtPunteo.Size = new System.Drawing.Size(128, 23);
+            this.txtPunteo.Size = new System.Drawing.Size(128, 27);
             this.txtPunteo.TabIndex = 15;
             this.txtPunteo.TextChanged += new System.EventHandler(this.txtPunteo_TextChanged);
             this.txtPunteo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcNumero);
@@ -474,7 +474,7 @@
             this.lblPunteoEvaluacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblPunteoEvaluacion.Location = new System.Drawing.Point(6, 79);
             this.lblPunteoEvaluacion.Name = "lblPunteoEvaluacion";
-            this.lblPunteoEvaluacion.Size = new System.Drawing.Size(162, 17);
+            this.lblPunteoEvaluacion.Size = new System.Drawing.Size(197, 20);
             this.lblPunteoEvaluacion.TabIndex = 14;
             this.lblPunteoEvaluacion.Text = "Punteo de la Evaluacion";
             // 
@@ -504,7 +504,7 @@
             this.lblComentarios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblComentarios.Location = new System.Drawing.Point(8, 195);
             this.lblComentarios.Name = "lblComentarios";
-            this.lblComentarios.Size = new System.Drawing.Size(185, 17);
+            this.lblComentarios.Size = new System.Drawing.Size(224, 20);
             this.lblComentarios.TabIndex = 3;
             this.lblComentarios.Text = "Comentarios del Evaluador";
             // 
@@ -514,7 +514,7 @@
             this.cmbTipoEntrevista.FormattingEnabled = true;
             this.cmbTipoEntrevista.Location = new System.Drawing.Point(239, 26);
             this.cmbTipoEntrevista.Name = "cmbTipoEntrevista";
-            this.cmbTipoEntrevista.Size = new System.Drawing.Size(149, 25);
+            this.cmbTipoEntrevista.Size = new System.Drawing.Size(149, 28);
             this.cmbTipoEntrevista.TabIndex = 7;
             // 
             // lblResultadoEvaluacion
@@ -523,7 +523,7 @@
             this.lblResultadoEvaluacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblResultadoEvaluacion.Location = new System.Drawing.Point(8, 137);
             this.lblResultadoEvaluacion.Name = "lblResultadoEvaluacion";
-            this.lblResultadoEvaluacion.Size = new System.Drawing.Size(180, 17);
+            this.lblResultadoEvaluacion.Size = new System.Drawing.Size(219, 20);
             this.lblResultadoEvaluacion.TabIndex = 4;
             this.lblResultadoEvaluacion.Text = "Resultado de la Evaluacion";
             // 
@@ -533,15 +533,15 @@
             this.lblTipoEvaluacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTipoEvaluacion.Location = new System.Drawing.Point(6, 34);
             this.lblTipoEvaluacion.Name = "lblTipoEvaluacion";
-            this.lblTipoEvaluacion.Size = new System.Drawing.Size(111, 17);
+            this.lblTipoEvaluacion.Size = new System.Drawing.Size(135, 20);
             this.lblTipoEvaluacion.TabIndex = 6;
             this.lblTipoEvaluacion.Text = "Tipo Evaluacion";
             // 
             // frmEvaluacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Purple;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(57)))), ((int)(((byte)(139)))));
             this.ClientSize = new System.Drawing.Size(799, 655);
             this.Controls.Add(this.tbcEntrevista);
             this.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

@@ -91,10 +91,10 @@
             this.tbpDatosRecluta.Controls.Add(this.lblIdEmpleado);
             this.tbpDatosRecluta.Controls.Add(this.txtIdEmpleado);
             this.tbpDatosRecluta.Controls.Add(this.btnBuscar);
-            this.tbpDatosRecluta.Location = new System.Drawing.Point(4, 26);
+            this.tbpDatosRecluta.Location = new System.Drawing.Point(4, 29);
             this.tbpDatosRecluta.Name = "tbpDatosRecluta";
             this.tbpDatosRecluta.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpDatosRecluta.Size = new System.Drawing.Size(745, 402);
+            this.tbpDatosRecluta.Size = new System.Drawing.Size(745, 399);
             this.tbpDatosRecluta.TabIndex = 0;
             this.tbpDatosRecluta.Text = "Datos Recluta";
             // 
@@ -132,7 +132,7 @@
             this.lblHorario.Location = new System.Drawing.Point(3, 166);
             this.lblHorario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHorario.Name = "lblHorario";
-            this.lblHorario.Size = new System.Drawing.Size(61, 17);
+            this.lblHorario.Size = new System.Drawing.Size(73, 20);
             this.lblHorario.TabIndex = 36;
             this.lblHorario.Text = "Horario ";
             // 
@@ -144,7 +144,7 @@
             this.cmbDepartamentoTrabajo.Location = new System.Drawing.Point(7, 119);
             this.cmbDepartamentoTrabajo.Margin = new System.Windows.Forms.Padding(4);
             this.cmbDepartamentoTrabajo.Name = "cmbDepartamentoTrabajo";
-            this.cmbDepartamentoTrabajo.Size = new System.Drawing.Size(242, 25);
+            this.cmbDepartamentoTrabajo.Size = new System.Drawing.Size(242, 28);
             this.cmbDepartamentoTrabajo.TabIndex = 35;
             // 
             // cmbHorario
@@ -155,7 +155,7 @@
             this.cmbHorario.Location = new System.Drawing.Point(7, 190);
             this.cmbHorario.Margin = new System.Windows.Forms.Padding(4);
             this.cmbHorario.Name = "cmbHorario";
-            this.cmbHorario.Size = new System.Drawing.Size(242, 25);
+            this.cmbHorario.Size = new System.Drawing.Size(242, 28);
             this.cmbHorario.TabIndex = 36;
             // 
             // lblDepartamentoTrabajo
@@ -166,7 +166,7 @@
             this.lblDepartamentoTrabajo.Location = new System.Drawing.Point(2, 91);
             this.lblDepartamentoTrabajo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDepartamentoTrabajo.Name = "lblDepartamentoTrabajo";
-            this.lblDepartamentoTrabajo.Size = new System.Drawing.Size(99, 17);
+            this.lblDepartamentoTrabajo.Size = new System.Drawing.Size(121, 20);
             this.lblDepartamentoTrabajo.TabIndex = 18;
             this.lblDepartamentoTrabajo.Text = "Departamento";
             // 
@@ -178,7 +178,7 @@
             this.cmbPuestoTrabajo.Location = new System.Drawing.Point(7, 48);
             this.cmbPuestoTrabajo.Margin = new System.Windows.Forms.Padding(4);
             this.cmbPuestoTrabajo.Name = "cmbPuestoTrabajo";
-            this.cmbPuestoTrabajo.Size = new System.Drawing.Size(242, 25);
+            this.cmbPuestoTrabajo.Size = new System.Drawing.Size(242, 28);
             this.cmbPuestoTrabajo.TabIndex = 29;
             // 
             // lblPuesto
@@ -189,7 +189,7 @@
             this.lblPuesto.Location = new System.Drawing.Point(2, 22);
             this.lblPuesto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPuesto.Name = "lblPuesto";
-            this.lblPuesto.Size = new System.Drawing.Size(50, 17);
+            this.lblPuesto.Size = new System.Drawing.Size(62, 20);
             this.lblPuesto.TabIndex = 19;
             this.lblPuesto.Text = "Puesto";
             // 
@@ -217,7 +217,7 @@
             this.txtTelefono.Location = new System.Drawing.Point(186, 159);
             this.txtTelefono.Margin = new System.Windows.Forms.Padding(5);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(145, 23);
+            this.txtTelefono.Size = new System.Drawing.Size(145, 27);
             this.txtTelefono.TabIndex = 25;
             // 
             // txtCorreoElectronico
@@ -227,7 +227,7 @@
             this.txtCorreoElectronico.Location = new System.Drawing.Point(186, 112);
             this.txtCorreoElectronico.Margin = new System.Windows.Forms.Padding(5);
             this.txtCorreoElectronico.Name = "txtCorreoElectronico";
-            this.txtCorreoElectronico.Size = new System.Drawing.Size(254, 23);
+            this.txtCorreoElectronico.Size = new System.Drawing.Size(254, 27);
             this.txtCorreoElectronico.TabIndex = 23;
             // 
             // lblCorreoElectronico
@@ -237,7 +237,7 @@
             this.lblCorreoElectronico.Location = new System.Drawing.Point(1, 115);
             this.lblCorreoElectronico.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblCorreoElectronico.Name = "lblCorreoElectronico";
-            this.lblCorreoElectronico.Size = new System.Drawing.Size(132, 17);
+            this.lblCorreoElectronico.Size = new System.Drawing.Size(161, 20);
             this.lblCorreoElectronico.TabIndex = 26;
             this.lblCorreoElectronico.Text = "Correo Electrónico";
             // 
@@ -248,7 +248,7 @@
             this.lblTelefono.Location = new System.Drawing.Point(1, 162);
             this.lblTelefono.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(64, 17);
+            this.lblTelefono.Size = new System.Drawing.Size(79, 20);
             this.lblTelefono.TabIndex = 24;
             this.lblTelefono.Text = "Teléfono";
             // 
@@ -259,7 +259,7 @@
             this.txtPrimerApellido.Location = new System.Drawing.Point(186, 69);
             this.txtPrimerApellido.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtPrimerApellido.Name = "txtPrimerApellido";
-            this.txtPrimerApellido.Size = new System.Drawing.Size(229, 23);
+            this.txtPrimerApellido.Size = new System.Drawing.Size(229, 27);
             this.txtPrimerApellido.TabIndex = 7;
             // 
             // txtPrimerNombre
@@ -269,7 +269,7 @@
             this.txtPrimerNombre.Location = new System.Drawing.Point(186, 20);
             this.txtPrimerNombre.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtPrimerNombre.Name = "txtPrimerNombre";
-            this.txtPrimerNombre.Size = new System.Drawing.Size(229, 23);
+            this.txtPrimerNombre.Size = new System.Drawing.Size(229, 27);
             this.txtPrimerNombre.TabIndex = 5;
             // 
             // lblApellidos
@@ -280,7 +280,7 @@
             this.lblApellidos.Location = new System.Drawing.Point(5, 76);
             this.lblApellidos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApellidos.Name = "lblApellidos";
-            this.lblApellidos.Size = new System.Drawing.Size(70, 17);
+            this.lblApellidos.Size = new System.Drawing.Size(84, 20);
             this.lblApellidos.TabIndex = 3;
             this.lblApellidos.Text = "Apellidos";
             // 
@@ -292,7 +292,7 @@
             this.lblNombres.Location = new System.Drawing.Point(5, 20);
             this.lblNombres.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombres.Name = "lblNombres";
-            this.lblNombres.Size = new System.Drawing.Size(67, 17);
+            this.lblNombres.Size = new System.Drawing.Size(81, 20);
             this.lblNombres.TabIndex = 1;
             this.lblNombres.Text = "Nombres";
             // 
@@ -315,7 +315,7 @@
             this.lblIdEmpleado.Location = new System.Drawing.Point(42, 49);
             this.lblIdEmpleado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIdEmpleado.Name = "lblIdEmpleado";
-            this.lblIdEmpleado.Size = new System.Drawing.Size(186, 17);
+            this.lblIdEmpleado.Size = new System.Drawing.Size(222, 20);
             this.lblIdEmpleado.TabIndex = 34;
             this.lblIdEmpleado.Text = "Ingrese el ID del Empleado";
             // 
@@ -325,7 +325,7 @@
             this.txtIdEmpleado.Location = new System.Drawing.Point(272, 46);
             this.txtIdEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdEmpleado.Name = "txtIdEmpleado";
-            this.txtIdEmpleado.Size = new System.Drawing.Size(184, 23);
+            this.txtIdEmpleado.Size = new System.Drawing.Size(184, 27);
             this.txtIdEmpleado.TabIndex = 33;
             this.txtIdEmpleado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcNumero);
             // 
@@ -343,18 +343,18 @@
             // 
             // tbpDatosEntrevista
             // 
-            this.tbpDatosEntrevista.BackColor = System.Drawing.Color.Purple;
+            this.tbpDatosEntrevista.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(57)))), ((int)(((byte)(139)))));
             this.tbpDatosEntrevista.Controls.Add(this.gbxDatosInduccion);
-            this.tbpDatosEntrevista.Location = new System.Drawing.Point(4, 26);
+            this.tbpDatosEntrevista.Location = new System.Drawing.Point(4, 29);
             this.tbpDatosEntrevista.Name = "tbpDatosEntrevista";
             this.tbpDatosEntrevista.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpDatosEntrevista.Size = new System.Drawing.Size(745, 402);
+            this.tbpDatosEntrevista.Size = new System.Drawing.Size(745, 399);
             this.tbpDatosEntrevista.TabIndex = 1;
-            this.tbpDatosEntrevista.Text = "Datos Entrevista";
+            this.tbpDatosEntrevista.Text = "Datos Inducción";
             // 
             // gbxDatosInduccion
             // 
-            this.gbxDatosInduccion.BackColor = System.Drawing.Color.Purple;
+            this.gbxDatosInduccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(57)))), ((int)(((byte)(139)))));
             this.gbxDatosInduccion.Controls.Add(this.cmbEncargado);
             this.gbxDatosInduccion.Controls.Add(this.dtpFechaInduccion);
             this.gbxDatosInduccion.Controls.Add(this.lblFechaInduc);
@@ -376,7 +376,7 @@
             this.cmbEncargado.FormattingEnabled = true;
             this.cmbEncargado.Location = new System.Drawing.Point(27, 233);
             this.cmbEncargado.Name = "cmbEncargado";
-            this.cmbEncargado.Size = new System.Drawing.Size(262, 25);
+            this.cmbEncargado.Size = new System.Drawing.Size(262, 28);
             this.cmbEncargado.TabIndex = 47;
             this.cmbEncargado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.funcLetra);
             // 
@@ -385,7 +385,7 @@
             this.dtpFechaInduccion.Location = new System.Drawing.Point(292, 120);
             this.dtpFechaInduccion.Margin = new System.Windows.Forms.Padding(5);
             this.dtpFechaInduccion.Name = "dtpFechaInduccion";
-            this.dtpFechaInduccion.Size = new System.Drawing.Size(324, 23);
+            this.dtpFechaInduccion.Size = new System.Drawing.Size(324, 27);
             this.dtpFechaInduccion.TabIndex = 45;
             // 
             // lblFechaInduc
@@ -394,7 +394,7 @@
             this.lblFechaInduc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblFechaInduc.Location = new System.Drawing.Point(23, 127);
             this.lblFechaInduc.Name = "lblFechaInduc";
-            this.lblFechaInduc.Size = new System.Drawing.Size(188, 17);
+            this.lblFechaInduc.Size = new System.Drawing.Size(232, 20);
             this.lblFechaInduc.TabIndex = 14;
             this.lblFechaInduc.Text = "Fecha Realización Inducción";
             // 
@@ -415,7 +415,7 @@
             this.cmbTipoInduccion.FormattingEnabled = true;
             this.cmbTipoInduccion.Location = new System.Drawing.Point(292, 57);
             this.cmbTipoInduccion.Name = "cmbTipoInduccion";
-            this.cmbTipoInduccion.Size = new System.Drawing.Size(149, 25);
+            this.cmbTipoInduccion.Size = new System.Drawing.Size(149, 28);
             this.cmbTipoInduccion.TabIndex = 7;
             // 
             // lblEncargadoInduc
@@ -424,7 +424,7 @@
             this.lblEncargadoInduc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblEncargadoInduc.Location = new System.Drawing.Point(23, 191);
             this.lblEncargadoInduc.Name = "lblEncargadoInduc";
-            this.lblEncargadoInduc.Size = new System.Drawing.Size(185, 17);
+            this.lblEncargadoInduc.Size = new System.Drawing.Size(223, 20);
             this.lblEncargadoInduc.TabIndex = 4;
             this.lblEncargadoInduc.Text = "Encargado de la Inducción:";
             // 
@@ -434,13 +434,13 @@
             this.lblTipoEntrevista.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTipoEntrevista.Location = new System.Drawing.Point(23, 65);
             this.lblTipoEntrevista.Name = "lblTipoEntrevista";
-            this.lblTipoEntrevista.Size = new System.Drawing.Size(104, 17);
+            this.lblTipoEntrevista.Size = new System.Drawing.Size(126, 20);
             this.lblTipoEntrevista.TabIndex = 6;
             this.lblTipoEntrevista.Text = "Tipo Induccion";
             // 
             // frmInduccion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(57)))), ((int)(((byte)(139)))));
             this.ClientSize = new System.Drawing.Size(753, 432);
